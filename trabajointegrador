@@ -11,4 +11,4 @@ main(){
 	printf("\n\t**********************************************************\n");
 	printf("\t**\t\t\t\ MENU PRINCIPAL\t\t\t**\n");
 	printf("\t**********************************************************\n");	
-	printf("\t**\tElija el metodo de ordenamiento a utilizar:     **\n");
+	printf("\t**\t Elija el metodo de ordenamiento que desea utilizar:     **\n");
