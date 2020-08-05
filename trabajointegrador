@@ -33,3 +33,14 @@ main(){
 	        
 	    case 2:CargarVector(v,cantidad);
 		Insercion(v,cantidad);
+for(int i=0;i<cant;i++){	
+		printf("\t %d ,",v[i]);
+	}
+	    	break;
+	        
+	    case 3: CargarVector(v,cant);
+	    nromax = cant;
+		seleccion(v,nromax);
+	    for(int i=0;i<cant;i++){	
+		printf("\t %d ,",v[i]);
+	}
