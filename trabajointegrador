@@ -21,3 +21,11 @@ main(){
 	printf("\t**********************************************************\n");
 	printf("\n *Opcion: ");
 	scanf("%d", &Opc);
+	
+         switch(Opc){
+		
+		case 1:CargarVector(v,cant);
+		burbuja(v, cant);
+	    for(int i=0;i<cant;i++){
+		printf("\t %d ,",v[i]);
+	}
